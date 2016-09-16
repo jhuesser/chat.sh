@@ -3,11 +3,7 @@
 #username = $USER
 
 backlog=$1
- if [   -z  "$backlog"  ]
-  then
-	read -p "Enter the chatroom to join: " $backlog
-  fi
-   
+ 
   
 
 function initalize {
@@ -15,7 +11,11 @@ function initalize {
   msgType="input"
   #This is a textfile, on a remote server.
  
-
+if [   -z  "$backlog"  ]
+  then
+	read -p "Enter the chatroom to join: " $backlog
+  fi
+   
 
 
 }
