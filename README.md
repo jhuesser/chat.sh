@@ -9,3 +9,5 @@ start the chat with
 ```
 
 The ```chatroom``` is the textfile the conversation is in. After that you can write and read messages.
+
+To reload the room, press ```enter```
